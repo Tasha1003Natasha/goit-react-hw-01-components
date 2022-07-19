@@ -1,9 +1,11 @@
 // import {ProfileList} from './Profile/ProfileList';
 // import user from '../data/user.json';
 // //////////////////2 д/з/////////////////////////////////////////
-import data from '../data/data.json';
-import {Statistics} from './Statistics/Statistics';
+// import data from '../data/data.json';
+// import {Statistics} from './Statistics/Statistics';
 // //////////////////3 д/з/////////////////////////////////////////
+import friends from '../data/friends.json';
+import {FriendList} from './FriendList/FriendList';
 
 
 export const App = () => {
@@ -20,9 +22,11 @@ export const App = () => {
     >
      {/* <ProfileList user={user}/> */}
 
-      <Statistics title="Upload stats" stats={data} />
+      {/* <Statistics title="Upload stats" stats={data} /> */}
 
       {/* <Statistics stats={data} /> */}
+
+      <FriendList friends={friends} />;
 
     </div>
   );
