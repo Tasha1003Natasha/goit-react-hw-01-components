@@ -1,13 +1,15 @@
-.friend_list {
+.statistics {
   padding: 20px 100px;
-  display: flex;
-  flex-basis: 3px;
   text-align: center;
   justify-content: center;
-  margin-right: -30px;
   list-style: none;
-  background-color: yellow;
+  font-size: 50px;
+  border-radius: 30%;
   color: #1e90ff;
+}
+
+.stat_list {
+  display: flex;
 }
 
 .item {
@@ -15,15 +17,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
-
-.avatar {
-  margin-top: 30px;
-  display: block;
-  max-width: 100%;
-  height: auto;
+  padding: 15px;
+  width: 20%;
 }
 
 .status {

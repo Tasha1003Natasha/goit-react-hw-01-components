@@ -1,5 +1,6 @@
 import { Profile } from '../Profile/Profile';
 
+
 export const ProfileList = ({ user }) => {
   return (
     <div>

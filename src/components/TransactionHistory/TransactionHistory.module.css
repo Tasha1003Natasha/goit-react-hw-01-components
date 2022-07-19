@@ -4,14 +4,17 @@
   table-layout: fixed;
   width: 100%;
 }
+
 th {
   margin: 20px 20px;
   font-weight: bold;
   padding: 5px;
   border: 1px solid #dddddd;
-  font-size: 10px;
+  font-size: 20px;
   color: black;
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  background-color: yellow;
+  color: #1e90ff;
 }
 
 tr {

@@ -1,14 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './FriendList.module.css';
 
-// const getRandomHexColor = () => {
-//   const getRandom = `# ${Math.floor(Math.random() * 16777215).toString(16)}`;
-//   return getRandom;
-// };
-// const generateColor = () => {
-//   return Math.random() > 0.5 ? 'red' : 'blue';
-// };
-
 export const Friends = ({ isOnline, avatar, name }) => {
   return (
     <li className={styles.item}>
