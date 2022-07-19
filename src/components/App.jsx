@@ -22,15 +22,14 @@ export const App = () => {
         color: '#010101'
       }}
     >
-     {/* <ProfileList user={user}/> */}
+        {/* <FriendList friends={friends} /> */}
 
-      {/* <Statistics title="Upload stats" stats={data} /> */}
+        <TransactionHistory items={transactions} />
+{/* 
+      * <ProfileList user={user}/> 
+      <Statistics title="Upload stats" stats={data} /> ;
+       <Statistics stats={data} />; */}
 
-      {/* <Statistics stats={data} /> */}
-
-      {/* <FriendList friends={friends} />; */}
-
-      <TransactionHistory items={transactions} />;
 
     </div>
   );

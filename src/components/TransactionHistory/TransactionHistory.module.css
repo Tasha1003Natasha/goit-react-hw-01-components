@@ -1,0 +1,21 @@
+.transaction_history {
+  padding: 20px 100px;
+  border: 1px solid #eee;
+  table-layout: fixed;
+  width: 100%;
+}
+th {
+  margin: 20px 20px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  font-size: 10px;
+  color: black;
+  background-color: #efefef;
+}
+
+tr {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: center;
+}
