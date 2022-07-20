@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-01-components/static/css/main.9373355f.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.babb900e.js",
+    "static/media/image.png": "/goit-react-hw-01-components/static/media/image.109d86a6f4c8fcffcccb.png",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.9373355f.css.map": "/goit-react-hw-01-components/static/css/main.9373355f.css.map",
+    "main.babb900e.js.map": "/goit-react-hw-01-components/static/js/main.babb900e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9373355f.css",
+    "static/js/main.babb900e.js"
+  ]
+}
